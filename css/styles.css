@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.box {
+  border: 3px solid yellowgreen;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://picsum.photos/id/1/200), url(https://picsum.photos/id/14/200),
+    url(https://picsum.photos/id/5/200), url(https://picsum.photos/id/41/200),
+    url(https://picsum.photos/id/32/200), url(https://picsum.photos/id/49/200),
+    url(https://picsum.photos/id/33/200), url(https://picsum.photos/id/101/200),
+    url(https://picsum.photos/id/44/200);
+  background-repeat: no-repeat;
+  background-position: top left, top center, top right, center right, center,
+    center left, bottom left, bottom center, bottom right;
+  color: #ffffff;
+}
+.box h1 {
+  font-size: 4rem;
+}
+.box p {
+  font-size: 2rem;
+}
+body h1 {
+  margin-bottom: 1rem;
+}
